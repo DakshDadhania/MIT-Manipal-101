@@ -1,0 +1,22 @@
+DATA SEGMENT
+A DW 1111H, 2222H
+SUM DW 0
+CARRY DB 0
+DATA ENDS
+
+CODE SEGMENT
+ASSUME CS:CODE, DS: DATA
+START:  MOV AX, DATA
+        MOV DS, AX
+
+        CLC
+        MOV SI, 0
+        MOV AX, A[SI]
+        ADD AX, A[SI+2]
+        MOV SUM, AX
+        ADC CARRY, 0
+
+        MOV AH, 4CH
+        INT 21H
+CODE ENDS
+END START

@@ -1,0 +1,26 @@
+DATA SEGMENT
+ARR DB 00H, 11H, 00H, 11H, 00H, 11H, 00H, 11H, 00H, 11H
+SUM DB 0
+CARRY DB 0
+DATA ENDS
+
+CODE SEGMENT
+ASSUME CS: CODE, DS: DATA
+START:  MOV AX, DATA
+        MOV DS, AX
+
+        MOV CX, 10
+        MOV SI, 0
+        MOV AL, 0
+        CLC
+NEXT:   ADD AL, ARR[SI]
+        ADC CARRY, 0
+        INC SI
+        LOOP NEXT
+
+        MOV SUM, AL
+
+        MOV AH, 4CH
+        INT 21H
+CODE ENDS
+END START

@@ -1,0 +1,2 @@
+gcc -o taskpll -pthread taskpll.cpp -lstdc++ -lm
+gcc -o datapll -pthread datapll.cpp -lstdc++ -lm

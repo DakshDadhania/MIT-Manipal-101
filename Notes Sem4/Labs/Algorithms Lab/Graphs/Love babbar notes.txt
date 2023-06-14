@@ -1,0 +1,23 @@
+Type 
+    undireted graph
+    directed graph
+    weighted graph(graph with different weights of edges  a->c = 3weight)
+        weighted directed graph 
+        weighted undirected graph
+Node - entity to store data
+Edge- connecting nodes
+Degree - no of edges connected 
+For Directed graph 
+    Indegree - No of edges going out 
+    Outdegree - no of edges going out 
+
+Mother vertex- the vertex from where you can travel the whole graph
+
+path- sequence of nodes where nodes don't repeat (need not be cyclic) (a node cannot appear twice in a path)
+cyclic - a->b->c->d->a if you can reach to the point of starting (non weighted cyclic directed graph)
+
+Acyclic graph a->b->c->d<-a 
+Total degree of the graph =2 * no of edges (for undirected graph)
+
+
+Connected components - when graph is divided to different components then we use visited array to traverse all the components

@@ -1,0 +1,15 @@
+composite book both side ruled or one side 
+
+code 
+step count
+total no of steps 
+graph
+O()?
+output
+
+Write all possible outcomes best / avg/ worst case 
+index 
+pagenos 
+
+
+LAb test Except topological sort All

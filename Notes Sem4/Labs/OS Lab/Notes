@@ -1,0 +1,32 @@
+Lab 1
+
+cd ls pwd cat
+touch cat file head tail cp(copy) mv(move) rm(remove)
+Input(<) and output(>) redirection and output supply(|)
+
+Lab 2
+grep 
+sort 
+wc
+sed
+ps
+chmod
+
+
+Question 2
+2.a) grep -E "^.{2}$" daksh
+2.b) grep -E ^[A-Z] fruits.txt
+2.c) grep -E "[.]$" daksh
+2.d) grep -E " " daksh
+2.e) grep -E "[0-9]" daksh >> output
+
+3.i)grep -c -E '[IT]' studentIT 
+3.ii)
+
+3
+find . -type f -name "*MIT*"
+sed 's/MIT/Manipal Institute of Technology/g' studentMIT.txt
+
+4
+
+

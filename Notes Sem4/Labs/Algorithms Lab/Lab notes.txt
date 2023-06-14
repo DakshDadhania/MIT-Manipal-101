@@ -1,0 +1,6 @@
+Lab 1 Searching and Sorting 
+
+Binary Search ( Both Recursive and iterative )
+Bubble sort 
+Selection Sort
+Insertion sort 

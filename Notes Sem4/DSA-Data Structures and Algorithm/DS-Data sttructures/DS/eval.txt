@@ -1,0 +1,83 @@
+#include<iostream>
+using namespace std;
+
+class exp_tree
+{
+    public:
+    exp_tree *left;
+    char data;
+    exp_tree *right;
+
+  exp_tree(){ }
+
+	    exp_tree(char ele)
+	    {
+		data=ele;
+		left=NULL;
+		right=NULL;
+	    }
+	    exp_tree* create(char);
+	    void inorder(exp_tree *);
+};
+
+exp_tree *root=NULL;
+
+int eval(exp_tree* root)  
+{  
+    // empty tree  
+    if (!root)  
+        return 0;  
+  
+    // leaf node i.e, an integer  
+    if (!root->left && !root->right)  
+        return (root->data-48); 
+   // Evaluate left subtree  
+    int l_val = eval(root->left);  
+    // Evaluate right subtree  
+    int r_val = eval(root->right);  
+    // Check which operator to apply  
+    if (root->data=='+')  return l_val+r_val;  
+    if (root->data=='-')  return l_val-r_val;  
+    if (root->data=='*')  return l_val*r_val;  
+    if (root->data=='/')  return l_val/r_val;  
+}  
+exp_tree* exp_tree::create(char ele)
+{
+    exp_tree *temp=new exp_tree(ele);
+    return temp;
+}
+
+void exp_tree::inorder(exp_tree *ptr)
+{
+    if(ptr!=NULL)
+	{
+	inorder(ptr->left);
+	cout<<ptr->data<<"   ";
+	inorder(ptr->right);
+	}
+}
+
+
+int main()
+{
+    char postfix[10];
+    int i=0,top=-1;
+    exp_tree *stack[10],obj;
+    cout<<"Enter the postfix expression: "; cin>>postfix;
+
+    while(postfix[i]!='\0')
+    {
+	if(isdigit(postfix[i]))
+		stack[++top]=obj.create(postfix[i]);
+	else
+	{
+	 root=obj.create(postfix[i]);
+            root->right=stack[top--];
+            root->left=stack[top--];
+            stack[++top]=root;
+        }
+        i++;
+    }
+obj.inorder(root);
+cout<<"    "<<eval(root);
+}

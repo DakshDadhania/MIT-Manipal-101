@@ -1,0 +1,14 @@
+cat > <filename.txt>   // create the file from cat
+ content for the file 
+
+echo "helloworlds" >> Helloworld.txt     // to append to the cated file 
+
+
+head -n helloworld.txt // used to specify the no of lines to be printed from top 
+tail -n helloworld.txt // used to specufy the no of lines to be printed from the bottom
+
+head -c helloworld.txt //used to print the first c bytes from the top
+tail -c helloworld.txt // used to print the last c bytes from the top
+
+cp -n doesn't copy if overriding
+cp -i prompt before override

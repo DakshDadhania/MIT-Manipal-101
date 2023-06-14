@@ -1,0 +1,39 @@
+Container Loading Problem:
+Given a set of n items, each with a weight w_i and a value v_i, and a set of m containers, each with a capacity C_j, find the optimal way to pack the items into the containers, such that the total value of the packed items is maximized.
+
+Algorithm:
+
+Sort the items in descending order of their values per unit weight (v_i / w_i).
+For each item i, starting from the first one:
+a. If there is a container with enough capacity to hold the item, pack it into that container and update the remaining capacity of the container.
+b. Otherwise, move on to the next container and repeat the same process.
+c. If all containers have been tried and none of them has enough capacity to hold the item, skip that item.
+Continue the process for all items and output the total value of the packed items.
+
+
+0/1 Knapsack Problem:
+Given a set of n items, each with a weight w_i and a value v_i, and a knapsack with a capacity W, find the optimal way to pack the items into the knapsack, such that the total value of the packed items is maximized and the total weight does not exceed the capacity of the knapsack.
+
+Algorithm:
+
+Initialize a table of size (n+1) x (W+1) to store the maximum value that can be obtained using the first i items and a knapsack with capacity j.
+For each item i, starting from the first one:
+a. For each possible knapsack capacity j, starting from 0:
+i. If the weight of item i is greater than j, the maximum value that can be obtained using the first i items and a knapsack with capacity j is the same as the maximum value that can be obtained using the first (i-1) items and a knapsack with capacity j.
+ii. Otherwise, the maximum value that can be obtained using the first i items and a knapsack with capacity j is the maximum of the following two values:
+- The maximum value that can be obtained using the first (i-1) items and a knapsack with capacity j.
+- The value of item i plus the maximum value that can be obtained using the first (i-1) items and a knapsack with capacity (j - w_i).
+The final value in the table is the maximum value that can be obtained using all the items and the knapsack of capacity W. Backtrack through the table to determine which items were packed.
+
+
+Topological Sorting:
+Given a directed acyclic graph (DAG), find a linear ordering of its vertices such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+
+Algorithm:
+
+Find a vertex with no incoming edges and add it to the ordering. If there are multiple such vertices, choose any one.
+Remove the chosen vertex and all its outgoing edges from the graph.
+Repeat steps 1 and 2 for the remaining vertices until all vertices have been added to the ordering.
+If there are still remaining edges in the graph, then the graph must contain a cycle and topological sorting is not possible.
+
+

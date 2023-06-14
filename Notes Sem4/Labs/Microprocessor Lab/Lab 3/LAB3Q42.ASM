@@ -1,0 +1,27 @@
+DATA SEGMENT
+A DW 5555H
+B DW 2222H
+ANS DW 0
+BORROW DB 0
+DATA ENDS
+
+CODE SEGMENT
+ASSUME CS: CODE, DS: DATA
+START:  MOV AX, DATA
+        MOV DS, AX
+
+        MOV CX, 2
+        MOV SI, 0
+        CLC
+NEXT:   MOV AL,BYTE PTR A[SI]
+        SBB AL,BYTE PTR B[SI]
+        DAA
+        MOV BYTE PTR ANS[SI], AL
+        INC SI
+        LOOP NEXT
+
+        ADC BORROW, 0
+        MOV AH, 4CH
+        INT 21H
+CODE ENDS
+END START

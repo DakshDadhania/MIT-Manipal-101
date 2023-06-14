@@ -1,0 +1,13 @@
+feb 20-25     L1-L2   record eval1   10M
+mar31-apr6th  L3-L7   record eval2   10M   average of 3 evals for 10M
+may2-8        L8-L11  record eval3   10M
+
+feb28-mar6    L1-l4   labtest 1      15M
+apr8-14       L5-L9   labtest 2      15M
+
+may8-13       L1-L11  final test     40M  
+
+-------     ------    quiz           12M
+
+-------     ------    program check   8M
+
