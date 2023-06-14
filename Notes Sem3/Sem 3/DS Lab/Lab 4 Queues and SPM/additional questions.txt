@@ -1,0 +1,5 @@
+Write a c++ prgm to perform the following on sparse matrices represented in array of objects form
+1) add 2 matrices 
+2) multiply 2 matrices
+3) Search for an element 
+All possible conditions have to be checked

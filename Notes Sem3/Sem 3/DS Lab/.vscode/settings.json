@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "random": "cpp",
+        "limits": "cpp",
+        "ostream": "cpp",
+        "stack": "cpp",
+        "deque": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

@@ -1,0 +1,20 @@
+Data Structure Lab 
+
+internal 60
+endsem 40
+
+24 aug L1
+31 aug HOliday
+7 sep L2 and L3
+14 sep L4 + Eval 1 (L1,L2,L3) 6mark
+21 sep L5 + Record check(L1,L2,L3,L4) 4mark
+28 sep L6
+5 oct Holiday
+12 oct Lab test (20mark) L1-L5
+19 oct L7
+26 oct L8 Record(L5,L6,L7) (4mark)
+2 nov L9 Evaluation (L4-L8) (6mark)
+9 nov L10
+16 nov L11 & L12
+23 nov Quiz L1-L11 (16 mark) +Record(L8-L11) (4mark) 
+30 nov Lab Exam (Complete Portion) (40 mark)

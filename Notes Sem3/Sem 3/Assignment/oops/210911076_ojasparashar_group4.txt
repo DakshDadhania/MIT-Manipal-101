@@ -1,0 +1,142 @@
+C:\Users\daksh\.jdks\openjdk-18.0.2.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\lib\idea_rt.jar=59460:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\daksh\OneDrive - Manipal Academy of Higher Education\MIT\Notes Sem3 & 4\Sem 3\Assignment\oops\Bus ticket reservation system\out\production\Bus ticket reservation system" busreservationandticketing
+                                     BUS RESERVATION SYSTEM-MANIPAL                                    
+                                           LOGIN  PAGE                                            
+1.USER LOGIN
+2.CREATE ACCOUNT
+3.EXIT
+2
+CREATE ACCOUNT
+Enter Username: ojasp
+Enter Password: 
+password@123
+Reenter the Password: 
+password@123
+Account created !!
+
+1.USER LOGIN
+2.CREATE ACCOUNT
+3.EXIT
+1
+USER LOGIN
+Enter Username: ojasp
+Enter Password: password@123
+WELCOME ojasp
+**********************************************************
+****** BUS RESERVATION AND TICKETING SYSTEM-MANIPAL ******
+**********************************************************
+** [1] Destination/ Timings available                   **
+** [2] Passenger Booking                                **
+** [3] Billing/ Payment Gateway                         **
+** [4] View                                             **
+** [5] Exit                                             **
+**********************************************************
+**********************************************************
+
+ENTER CHOICE: 2
+*******************************************************************************************************************
+****    SOURCE  ->    DESTINATION      |                 Timings         |  FARE    |         SEAT             ****
+*******************************************************************************************************************
+**** 1.)MANIPAL -> MUMBAI Bus Depot    |   9:55 PM - 3:07 PM 17hr 12min  | Rs. 3600 |   20   ****
+**** 2.)MANIPAL -> BANGALORE Bus Depot |   8:30 PM - 4:52 AM 8hr 22min   | Rs. 1300 |   20   ****
+**** 3.)MANIPAL -> DELHI Bus Depot     |   9:55 PM - 8:32 AM  1day 11hr  | Rs. 4500 |   20   ****
+**** 4.)MANIPAL -> AHMEDABAD Bus Depot |   9:55 PM - 5:35 AM  1day 8hr   | Rs. 4000 |   20   ****
+**** 5.)MANIPAL -> CHENNAI Bus Depot   |   8:55 PM - 11:00 AM  14hr 5min | Rs. 1950 |   20   ****
+*******************************************************************************************************************
+*******************************************************************************************************************
+
+PWD, STUDENT, & SENIOR CITIZEN with 20% DISCOUNT!!!
+
+
+ENTER PASSENGER'S NAME: Ojas Parashar
+ENTER DESTINATION [number]: 2
+HOW MANY PASSENGERS ARE YOU?: 5
+HOW MANY PASSENGERS HAVE DISCOUNT?: 2
+
+***************************************
+**        PASSENGER'S DETAILS        **
+***************************************
+PASSENGER'S NAME: Ojas Parashar
+PASSENGER'S DESTINATION : BANGALORE
+FARE PRICE: Rs. 1300.0
+NO. OF PASSENGERS: 5
+NO. OF PASSENGERS WITH DISCOUNT: 2
+***************************************
+***************************************
+
+Do you want to go back to menu? [Y/N]: y
+**********************************************************
+****** BUS RESERVATION AND TICKETING SYSTEM-MANIPAL ******
+**********************************************************
+** [1] Destination/ Timings available                   **
+** [2] Passenger Booking                                **
+** [3] Billing/ Payment Gateway                         **
+** [4] View                                             **
+** [5] Exit                                             **
+**********************************************************
+**********************************************************
+
+ENTER CHOICE: 3
+ENTER PASSENGER'S NAME: Ojas Parashar
+***************************************
+**        PASSENGER'S DETAILS        **
+***************************************
+PASSENGER'S NAME: Ojas Parashar
+PASSENGER'S DESTINATION : BANGALORE
+FARE PRICE: Rs.1300.0
+NO. OF PASSENGERS: 5
+NO. OF PASSENGERS WITH DISCOUNT: 2
+***************************************
+***************************************
+
+PASSENGER'S TOTAL FARE: Rs. 5980.0
+ENTER AMOUNT TO PAY: 6000
+CHANGE: Rs. 20.0
+
+Do you want to go back to menu? [Y/N]: y
+**********************************************************
+****** BUS RESERVATION AND TICKETING SYSTEM-MANIPAL ******
+**********************************************************
+** [1] Destination/ Timings available                   **
+** [2] Passenger Booking                                **
+** [3] Billing/ Payment Gateway                         **
+** [4] View                                             **
+** [5] Exit                                             **
+**********************************************************
+**********************************************************
+
+ENTER CHOICE: 4
+SEARCH PASSENGER'S NAME: Ojas Parashar
+***************************************
+**        PASSENGER'S DETAILS        **
+***************************************
+PASSENGER'S NAME: Ojas Parashar
+PASSENGER'S DESTINATION : BANGALORE
+FARE PRICE: Rs.1300.0
+NO. OF PASSENGERS: 5
+NO. OF PASSENGERS WITH DISCOUNT: 2
+TOTAL FARE PRICE: Rs. 5980.0
+PAY: Rs. 6000.0
+CHANGE: Rs. 20.0
+STATUS: PAID
+***************************************
+***************************************
+Do you want to go back to menu? [Y/N]: y
+**********************************************************
+****** BUS RESERVATION AND TICKETING SYSTEM-MANIPAL ******
+**********************************************************
+** [1] Destination/ Timings available                   **
+** [2] Passenger Booking                                **
+** [3] Billing/ Payment Gateway                         **
+** [4] View                                             **
+** [5] Exit                                             **
+**********************************************************
+**********************************************************
+
+ENTER CHOICE: 5
+Thank You!
+1.USER LOGIN
+2.CREATE ACCOUNT
+3.EXIT
+5
+
+Process finished with exit code 0
