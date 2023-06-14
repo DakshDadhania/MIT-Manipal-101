@@ -1,0 +1,13 @@
+interface mai you can only have method initialized by thier names
+exceptions is if you want to declare the method there itself in interface 
+use 1. static or
+use 2. default 
+you can't have normal methods
+
+in abstract class you can have both abstract method(methods without the declaration)
+and normal methods 
+
+
+for incomplete methods 
+in interface you need not write anything
+but in abstract you have to write abstract

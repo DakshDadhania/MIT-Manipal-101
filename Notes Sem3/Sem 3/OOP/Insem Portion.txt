@@ -1,0 +1,37 @@
+L1 Introduction: The birth of modern programming language C, the need for C++, Java, Importance of Java in the internet CO2
+
+L2 Java applets and applications, security, probability, the byte code, An overview of Java, OOP, Two paradigms, abstraction, the three OOP principles CO2
+
+L3 Simple types, integers, floating point types, characters, Booleans. Variables - declaring variable, dynamic initialization, the scope and life time of variables. CO1
+
+T1 Simple java programs based on concepts discussed in lecture1 to lecture 3 CO1
+
+L4 Type conversion and casting, arrays-one dimensional arrays and multi-dimensional arrays CO1
+
+L5 Operators and control statements : Arithmetic operators, bitwise operators CO1
+
+L6 Relational operators, Logical operators, ternary operators, assignment operators, Operator precedence, Control statements - if, switch, break, continue CO1
+
+T2 Simple java programs based on concepts discussed in lecture 4 to lecture 6 CO1
+
+L7 While, do-while, for nested loops with examples CO1
+
+L8 Class fundamentals, declaring objects, assigning object references variables. CO4
+
+L9 Introducing methods, constructors, Overloading method, Using objects as parameters, argument passing, returning objects CO2
+
+T3 Simple java programs based on concepts discussed in lecture 7 to lecture 9 CO2
+
+L10 Using objects argument passing, returning objects, Recursion, Use of static and final key word CO2
+
+L11 Nested and inner class, Using command line arguments, Inheritance basics. CO2
+
+L12 Inheritance - using super, Wrapper classes, Creating multilevel, hierarchy ,Constructors call CO2
+
+T4 Simple java programs based on concepts discussed in lecture 10 to lecture 12 CO2
+
+L13 Method overriding, Dynamic method dispatch, using abstract classes, Using final inheritance CO2
+
+L14 Packages, defining a package, using of CLASSPATH, Package example. CO4
+
+L15 Access protection, Importing packages, Interfaces - defining an interface, implementing interfaces

@@ -1,0 +1,14 @@
+FEATURE maxplus2 alterad 9.3 1-jan-2003 uncounted 224C2D71F90A \
+	HOSTID=ANY ISSUER=Team-Rebels/1999
+FEATURE maxplus2tan alterad 9.3 1-jan-2003 uncounted 87676C0C0FF5 \
+	HOSTID=ANY ISSUER=Team-Rebels/1999
+FEATURE maxplus2vhdl alterad 9.3 1-jan-2003 uncounted 8463CDC5852B \
+	HOSTID=ANY ISSUER=Team-Rebels/1999
+FEATURE maxplus2hdl alterad 9.3 1-jan-2003 uncounted 6AD66FC0D943 \
+	HOSTID=ANY ISSUER=Team-Rebels/1999
+FEATURE maxplus2ext alterad 9.3 1-jan-2003 uncounted C8C6887B4B73 \
+	HOSTID=ANY ISSUER=Team-Rebels/1999
+FEATURE maxplus2 alterad 9.3 1-jan-2003 uncounted 224C2D71F90A \
+	HOSTID=ANY ISSUER=Team-Rebels/1999
+
+#License generated with FlexGEN 2000.3 by Team-Rebels 1999
